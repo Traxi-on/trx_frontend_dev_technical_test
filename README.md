@@ -1,32 +1,30 @@
-# Prueba Técnica - Desarrollador frontend
+# Technical Test - Frontend Developer
 
-¡Bienvenido a la prueba técnica para el puesto de Desarrollador FrontEnd en Traxi!
+Welcome to the technical test for the position of FrontEnd Developer at Traxi!
 
-En esta prueba, tendrás la oportunidad de demostrar tus habilidades y conocimientos en el desarrollo de aplicaciones web. Asegúrate de leer detenidamente las instrucciones y los requisitos antes de comenzar.
+In this test, you will have the opportunity to demonstrate your skills and knowledge in web application development. Be sure to read the instructions and requirements carefully before you begin.
 
-Recuerda que esta prueba está diseñada para evaluar tus capacidades y experiencia, por lo que te recomendamos seguir las mejores prácticas de desarrollo y mantener un código limpio y bien estructurado.
+Remember that this test is designed to evaluate your skills and experience, so we recommend you to follow development best practices and keep a clean and well-structured code.
 
-¡Buena suerte y esperamos ver tu talento en acción!
+Good luck and we look forward to seeing your talent in action!
 
-## Instrucciones
+## Instructions
 
-1. Clona este repositorio en tu máquina local.
-2. Crea una nueva rama para trabajar en la prueba.
-3. Sigue las instrucciones proporcionadas en el archivo [challenge](challenge.md) para completar la prueba.
-4. Asegúrate de hacer commits frecuentes a medida que avanzas en el desarrollo.
-5. Una vez que hayas terminado, crea un pull request con tu solución hacia la rama principal del repositorio.
+1. Clone this repository on your local machine.
+2. Create a new branch to work on the test.
+3. Follow the instructions provided in the [challenge](challenge.md) file to complete the test.
+4. Be sure to make frequent commits as you progress through development.
+5. Once you are done, create a pull request with your solution to the main branch of the repository.
 
-## Requisitos
+## Requirements
 
-- Conocimientos en desarrollo web frontend utilizando:
-    - JavaScript y preferiblemente TypeScript.
-    - ReactJS y/o Next.js.
-- Familiaridad con el uso de herramientas de control de versiones como Git.
+- Knowledge in frontend web development using:
+    - JavaScript and preferably TypeScript.
+    - ReactJS and/or Next.js.
+- Familiarity with using version control tools such as Git.
 
-Si tienes alguna pregunta o necesitas aclaraciones, no dudes en comunicarte con nosotros. ¡Estamos aquí para ayudarte!
+If you have any questions or need clarification, feel free to contact us - we're here to help!
 
-¡Que tengas una excelente prueba técnica!
+Have a great technical test!
 
-Atentamente,
-El equipo de enseñanza de Traxi ❤
-Traxi teach team ❤# trx_frontend_dev_technical_test
+Sincerely, The Traxi teach team ❤ Traxi teach team ❤# trx_frontend_dev_technical_test

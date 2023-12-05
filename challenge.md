@@ -1,58 +1,76 @@
-## Desafío de Código
+## Code Challenge
 
-Resumen: Crear una vista web que muestre un mapa como sección principal, seguido de una lista de vehículos y un buscador que afecte a dicha lista.
+Summary: Create a web view that displays a map as the main section, followed by a list of vehicles and a search engine that affects that list.
 
-### Requerimientos
+## Section 1 - Map Styling and Representation
 
-#### Sección 1
-- El mapa debe ser el elemento principal. Modificar su estilo para que no sea el predeterminado.
-- En el mapa, representa la ruta proporcionada en el geojson que se obtiene del endpoint en la seccion de "Servicio":
-  - Nota: El endpoint devuelve datos variados; debes identificar el geojson y representar la ruta. [Ejemplo de geojson](assets/exampleRoute.geojson)
+- The map must be the main element. Modify its style so that it is not the default.
+- Implement dynamic zoom and centering based on the route's bounding box.
+- Allow users to interact with the map, such as zooming in/out, dragging, and clicking on specific points for additional information.
+- Add animations to the route representation on the map for a smoother visual experience. (Nice to have)
 
-#### Sección 2
-- Representa una lista de vehículos (a partir de [la lista de vehículos ficticios proporcionada](assets/carMock.json)).
-- Muestra datos del vehículo en cada fila de la lista.
+## Section 2 - Vehicle List
 
-#### Sección 3
-- Al hacer clic en cada elemento de la tabla (vehículo), se debe mostrar un icono seleccionable dentro del mapa (la posición debe estar cerca de la ruta trazada en el mapa; cualquier posición ficticia es válida).
-- Agrega un buscador que afecte a la tabla (cuantos más datos tome en cuenta el buscador, mejor).
+- Represents a list of vehicles (from [dummy vehicle list provided](assets/carMock.json)).
+- Displays vehicle data in each row of the list.
+- Enable sorting and filtering options for the vehicle list based on different criteria like vehicle type, status, or any other relevant attribute.
+- Implement pagination for the vehicle list, especially if the list grows large.
+- If feasible, incorporate real-time updates for the vehicle list, reflecting any changes in the "backend" data (This could be just ins the current session. Just a mock update). (Nice to have)
 
+## Section 3 - Vehicle Details and Search Engine
 
-#### Wireframe bajo nivel del posible resultado
-![Ejemplo](assets/viewExample.png)
-#### Servicio
-- Metodo: GET
-- Endpoint:
-[https://5qewqsdgrl.execute-api.us-west-1.amazonaws.com//challenge/route/dummy](https://5qewqsdgrl.execute-api.us-west-1.amazonaws.com//challenge/route/dummy)
+- Clicking on each table item (vehicle) should display a clickable icon within the map (position must be near the route plotted on the map; any dummy position is valid).
+- Add a search engine that affects the table (the more data the search engine takes into account, the better).
+- Expand the information displayed on clicking a vehicle, providing more details about its status, history, or any other relevant data.
+- Allow users to interact with the map directly from the table. Clicking on a vehicle in the table should highlight its position on the map.
+- Enhance the search engine to support advanced filtering, allowing users to search based on multiple criteria simultaneously (Nice to have)
 
-### Tecnologías
-Idealmente, buscamos que implementes el desafío utilizando las siguientes tecnologías:
+## Wireframe (low level) of the possible result
+
+![Example](assets/viewExample.png)
+
+## Service
+
+- Method: GET
+- Endpoint: [https://5qewqsdgrl.execute-api.us-west-1.amazonaws.com//challenge/route/dummy](https://5qewqsdgrl.execute-api.us-west-1.amazonaws.com//challenge/route/dummy)
+
+## Technologies
+
+Ideally, we are looking for you to implement the challenge using the following technologies:
+
 - TypeScript
 - ReactJS
 - Next.js
-- Puedes elegir cualquier biblioteca para el renderizado de mapas u otras funcionalidades.
+- You can choose any library for map rendering or other functionality.
 
-### Entregables
+## Deliverables
 
-- URL de una demo en vivo; recomendamos Vercel, pero cualquier proveedor es válido.
-- URL del repositorio público de GitHub.
+- URL of a live demo; we recommend Vercel, but any provider is valid.
+- URL of the public GitHub repository.
 
+## Estimated Time
 
-## Tiempo Estimado
+This technical test is estimated to take approximately one and a half to two days to complete.
 
-Se estima que esta prueba técnica tomará aproximadamente un dia y medio o dos dias para completarse.
+## Additional Resources
 
-## Recursos Adicionales
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [TypeScript Tutorial](https://www.typescriptlang.org/docs/)
 
-- [Documentación de React](https://reactjs.org/docs/getting-started.html)
-- [Tutorial de TypeScript](https://www.typescriptlang.org/docs/)
+## Extras - Optional
 
+- Git flow.
+- Clean code.
+- Testing.
+- Styling and finishing.
+- Responsiveness
+- Any improvement/functionality/extra styling will be taken into account.
+- The layout is just a proposal, there is no limit in creativity.
+- Proper error handling for API requests, ensuring a smooth user experience even if there are issues with data retrieval.
+- Add loading states to indicate when data is being fetched, providing feedback to users.
+- Write unit tests for critical components or functions to ensure code reliability.
+- Optimize the application layout for different screen sizes, ensuring a good user experience on both desktop and mobile devices.
+- Provide thorough documentation for the project, including setup instructions, architecture overview, and any other relevant information.
+- Optimize the performance of the application, especially for rendering large datasets or handling complex interactions.
 
-### Extras - Opcionales
-- Flujo de Git (Git flow).
-- Código limpio.
-- Pruebas (Testing).
-- Estilo y acabado.
-- Responsividad
-- Cualquier mejora/funcionalidad/estilado extra sera tomada muy en cuenta
-- El layout es solo una propuesta  no hay limite en la creatividad
+Remember to balance the time spent on each enhancement based on your skills and the overall time estimate for the test. Good luck!
